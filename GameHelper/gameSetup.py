@@ -18,3 +18,4 @@ def printOptions():
 	print("Doge coin miner: dcm")
 	print("Slap the monkey: stm")
 	print("Gun Blood: gb")
+	print("Worlds Hardest Game: whg")

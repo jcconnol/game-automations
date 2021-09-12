@@ -2,6 +2,7 @@ import DogeMiner.index as dm
 import SlapTheMonkey.index as slm
 import GunBlood.index as gb
 import GameHelper.gameSetup as gs
+import WorldsHardestGame.index as whg
 
 def main():
 	while True:
@@ -18,6 +19,9 @@ def main():
 		elif game_choice == "gb":
 			gs.setupGame("https://www.crazygames.com/game/gunblood")
 			gb.playGunBlood()
+		elif game_choice == "whg":
+			gs.setupGame("https://www.crazygames.com/game/worlds-hardest-game")
+			whg.playWorldsHardestGame()
 		elif game_choice == "q" or game_choice == "quit":
 			print("break")
 		else:
